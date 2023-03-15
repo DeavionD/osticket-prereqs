@@ -125,9 +125,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/75K0lVJ.png" height="70%" width="70%" alt=""/>
 </p>
-<p>
-<img src="https://i.imgur.com/dhykFkj.png" height="70%" width="70%" alt=""/>
-</p>
+
 <p>
 8. Lastly, in the file manager, go to "C:\inetpub\wwwroot\osTicket" and delete the setup folder. Next, go to "C:\inetpub\wwwroot\osTicket\include" -> scroll down to "ost-config.php" and change the permissions back to "read-only". Right-click "security" -> "advanced" -> "everyone" -> "edit", now uncheck "modify" and "write". Press ok, and apply the changes. This completes the prereqs and initial installation of osTicket. Use this link(http://localhost/osTicket/scp/login.php), if all steps were done correctly, you should be able to log in.
 </p>
